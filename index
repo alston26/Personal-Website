@@ -3,28 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
+  <title>Alston - Portfolio</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <!-- Navigation -->
   <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-    </ul>
+    <div class="container">
+      <a href="#" class="logo">Alston</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <h1>Hi, I'm [Your Name]</h1>
-    <p>A developer passionate about building cool things.</p>
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Alston</span></h1>
+      <p>A passionate developer building cool and impactful things.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
   </section>
 
   <!-- About Me -->
-  <section class="about">
-    <h2>About Me</h2>
-    <p>Write a short bio here.</p>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a developer with a love for solving problems and creating user-friendly applications. I specialize in front-end development but enjoy diving into full-stack projects. When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.</p>
+    </div>
   </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>A React app for task management with a Firebase backend.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 3</h3>
+          <p>A Python script for automating daily tasks.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Have a question or want to work together? Reach out!</p>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Alston. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/alston26" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/alston26" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:alston@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
