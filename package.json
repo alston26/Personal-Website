@@ -1,0 +1,16 @@
+{
+    "name": "personal-website",
+    "version": "1.0.0",
+    "description": "A personal portfolio website showcasing projects and providing a contact form.",
+    "main": "src/index.html",
+    "scripts": {
+      "start": "live-server src",
+      "build": "echo 'Build step not defined'"
+    },
+    "author": "Alston",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
