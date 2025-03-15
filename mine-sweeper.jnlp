@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://alston26.github.io/mine-sweeper/">
+  <information>
+    <title>Mine-Sweeper Game</title>
+    <vendor>Your Name</vendor>
+    <description>Mine-Sweeper Game</description>
+  </information>
+  <resources>
+    <j2se version="1.8+" />
+    <jar href="mine-sweeper.jar" />
+  </resources>
+  <application-desc main-class="startMenu" />
+</jnlp>

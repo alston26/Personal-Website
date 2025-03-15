@@ -1,0 +1,336 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #ff6b6b;
+}
+
+/* Hero Section */
+.hero {
+  background: #0077b6;
+  color: #fff;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero .highlight {
+  color: #ff6b6b;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.hero .btn:hover {
+  background: #ff4c4c;
+}
+
+/* About Section */
+.about {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Projects Section */
+.projects {
+  padding: 4rem 0;
+  background: #f1f1f1;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  margin-bottom: 1.5rem;
+}
+
+.project-card .btn {
+  background: #0077b6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-card .btn:hover {
+  background: #005f8b;
+}
+
+/* Contact Section */
+.contact {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background: #0077b6;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #005f8b;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer .social-links {
+  margin-top: 1rem;
+}
+
+footer .social-links a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer .social-links a:hover {
+  color: #ff6b6b;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header .title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.reset-button {
+  background-color: #e74c3c;
+}
+
+.reset-button:hover {
+  background-color: #c0392b;
+}
+
+/* Game Container */
+.game-container {
+  display: grid;
+  gap: 2px;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cells */
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #bdc3c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #95a5a6;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cell.revealed {
+  background-color: #ecf0f1;
+  cursor: default;
+}
+
+.cell.mine {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
